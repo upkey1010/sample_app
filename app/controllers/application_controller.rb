@@ -3,5 +3,5 @@ class ApplicationController < ActionController::Base
   def hello
     render html: "Hello World"
   end
-  #mothod hello
+  # mothod hello
 end
