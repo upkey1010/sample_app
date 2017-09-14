@@ -31,3 +31,16 @@
 
 en:
   hello: "Hello world"
+  base_title: "Ruby on Rails Tutorial Sample App"
+
+  static_pages:
+    about:
+      about: "About"
+    help:
+      help: "Help"
+    contact:
+      contact: "Contact"
+    home:
+      site_logo: "Sample app"
+
+
