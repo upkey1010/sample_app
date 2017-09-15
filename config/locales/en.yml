@@ -32,15 +32,42 @@
 en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
+  about: "About"
+  help: "Help"
+  contact: "Contact"
+  home: "Home"
+  news: "News"
+  log_in: "Log in"
+  tutorial_title: "Ruby on Rails Tutorial"
+  sign_up: "Sign up"
+  site_logo: "sample app"
 
   static_pages:
-    about:
-      about: "About"
-    help:
-      help: "Help"
-    contact:
-      contact: "Contact"
-    home:
-      site_logo: "Sample app"
+   about:
+    about: "About"
+    message_no1: "This is the sample application for the tutorial."
+   help:
+    help: "Help"
+    message_no1: "Get help on the Ruby on Rails Tutorial at the"
+    message_no2: "To get help on this sample app, see the"
+    help_page: "Rails Tutorial help page"
+   contact:
+    contact: "Contact"
+    message_no1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    contact_page: "contact page"
+   home:
+    site_logo: "Sample app"
+    welcome_announcement: "Welcome to Sample app"
+    sign_up_announcement: "Sign up now!"
+    message_no1: "This is the home page for the"
+    message_no2: "sample application."
 
+  users:
+   new:
+    sign_up: "Sign up"
+    signup_message: "This will be a sign up page for new users."
 
+  layouts:
+    footer:
+      footer_name: "Ruby on Rails Tutorial"
+      authour_of_tutorial_book: "Michael Hartl"
