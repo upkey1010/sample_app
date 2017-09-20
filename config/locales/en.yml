@@ -41,7 +41,8 @@ en:
   tutorial_title: "Ruby on Rails Tutorial"
   sign_up: "Sign up"
   site_logo: "sample app"
-
+  welcome: "Welcome to the Sample App!"
+  all_user: "All users"
   static_pages:
    about:
     about: "About"
@@ -66,8 +67,14 @@ en:
    new:
     sign_up: "Sign up"
     signup_message: "This will be a sign up page for new users."
+    create: "Create my account"
+   show:
+    error_message: "Can not find user !"
 
   layouts:
     footer:
       footer_name: "Ruby on Rails Tutorial"
       authour_of_tutorial_book: "Michael Hartl"
+  shared:
+    error_messages:
+      message_no1: "The form contains "

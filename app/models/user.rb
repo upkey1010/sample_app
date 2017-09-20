@@ -7,4 +7,6 @@ class User < ApplicationRecord
     uniqueness: {case_sensitive: false}
   has_secure_password
   validates :password, presence: true, length: {minimum: Settings.user.password.minimum_length}
+
+  scope :sort_by_name, ->{order :name}
 end
