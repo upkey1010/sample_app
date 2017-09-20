@@ -43,6 +43,8 @@ en:
   site_logo: "sample app"
   welcome: "Welcome to the Sample App!"
   all_user: "All users"
+  new_user: "New user?"
+  login_error_msg: "Invalid email/password combination"
   static_pages:
    about:
     about: "About"

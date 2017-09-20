@@ -10,6 +10,7 @@ gem "rails", "~> 5.1.4"
 gem "bootstrap-sass", "3.3.7"
 gem "bcrypt",         "3.1.11"
 gem "config"
+gem "jquery-rails"
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem "sqlite3"
