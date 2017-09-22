@@ -5,3 +5,5 @@ user:
     maximum_length: 255
   password:
     minimum_length: 6
+session:
+  checkbox_true: 1
