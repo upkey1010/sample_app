@@ -7,3 +7,9 @@ user:
     minimum_length: 6
 session:
   checkbox_true: 1
+
+paginate:
+  user_perpage: 10
+gravatar:
+  size_option: 80
+  user_size: 50

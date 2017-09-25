@@ -44,8 +44,15 @@ en:
   welcome: "Welcome to the Sample App!"
   all_user: "All users"
   new_user: "New user?"
+  edit_user: "Edit User"
   login_error_msg: "Invalid email/password combination"
   remember_me: "Remember me on this computer"
+  update_success: "Profile updated"
+  log_in_msg: "Please log in."
+  confirm_msg: "You sure?"
+  destroy_success: "User deleted !!! xxx"
+  cant_find_user: "Can not find user !"
+
   static_pages:
    about:
     about: "About"
@@ -61,8 +68,8 @@ en:
     contact_page: "contact page"
    home:
     site_logo: "Sample app"
-    welcome_announcement: "Welcome to Sample app"
     sign_up_announcement: "Sign up now!"
+    welcome_announcement: "Welcome to Sample app"
     message_no1: "This is the home page for the"
     message_no2: "sample application."
 
@@ -73,11 +80,16 @@ en:
     create: "Create my account"
    show:
     error_message: "Can not find user !"
+   edit:
+    save: "Save changes"
+    edit_msg1: "Update your profile"
+    change_avatar: "Change profile picture"
 
   layouts:
     footer:
       footer_name: "Ruby on Rails Tutorial"
       authour_of_tutorial_book: "Michael Hartl"
+
   shared:
     error_messages:
       message_no1: "The form contains "
