@@ -45,6 +45,7 @@ en:
   all_user: "All users"
   new_user: "New user?"
   login_error_msg: "Invalid email/password combination"
+  remember_me: "Remember me on this computer"
   static_pages:
    about:
     about: "About"

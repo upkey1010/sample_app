@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by(id: params[:id])
     return if @user
-    flash[:danger] = t(".error_message")
+    flash[:danger] = t ".error_message"
     redirect_to action: "index"
   end
 
@@ -14,7 +14,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       log_in @user
-      flash[:success] = t("welcome")
+      flash[:success] = t "welcome"
       redirect_to @user
     else
       render "new"
