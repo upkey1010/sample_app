@@ -6,14 +6,14 @@ class SessionsController < ApplicationController
   end
 
   def create
-    user = User.find_by(email: params[:session][:email].downcase)
+    user = User.find_by email: params[:session][:email].downcase
     if user && user.authenticate(params[:session][:password])
       log_in user
       create_param user
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:danger] = t "login_error_msg"
-      render "new"
+      render :new
     end
   end
 
