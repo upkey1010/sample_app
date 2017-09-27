@@ -18,7 +18,7 @@ class SessionsController < ApplicationController
       redirect_back_or user
     else
       flash[:warning] = t "not_yet_activate_warn"
-      redirect_to root_url
+      render :new
     end
   end
 

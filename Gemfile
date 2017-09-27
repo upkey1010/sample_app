@@ -16,7 +16,7 @@ gem "will_paginate",           "3.1.5"
 gem "bootstrap-will_paginate", "1.0.0"
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-  gem "sqlite3"
+  gem "sqlite3", "1.3.12"
 end
 group :production do
   gem "pg"
