@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  application_name: "Sample app"
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   about: "About"
@@ -52,6 +53,14 @@ en:
   confirm_msg: "You sure?"
   destroy_success: "User deleted !!! xxx"
   cant_find_user: "Can not find user !"
+  activate: "Activate"
+  not_yet_activate_warn: "Account not activated. Check your email for the activation link."
+  success_activation: "Account activated!"
+  fail_activation: "Invalid activation link"
+  check_activation_mail: "Please check your email to activate your account."
+  activation_email_subject: "Sample app Account activation"
+  activation_welcome_msg: "Welcome to the Sample App! Click on the link below to activate your account:"
+  hi: "Hi"
 
   static_pages:
    about:
