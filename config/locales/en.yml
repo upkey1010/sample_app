@@ -30,6 +30,7 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  application_name: "Sample app"
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   about: "About"
@@ -52,6 +53,21 @@ en:
   confirm_msg: "You sure?"
   destroy_success: "User deleted !!! xxx"
   cant_find_user: "Can not find user !"
+  activate: "Activate"
+  not_yet_activate_warn: "Account not activated. Check your email for the activation link."
+  success_activation: "Account activated!"
+  fail_activation: "Invalid activation link"
+  check_activation_mail: "Please check your email to activate your account."
+  activation_email_subject: "Sample app Account activation"
+  activation_welcome_msg: "Welcome to the Sample App! Click on the link below to activate your account:"
+  hi: "Hi"
+  reset_pass: "Reset Password"
+  update_pass: "Update Password"
+  pw_reset_success: "Password has been reset."
+  expired_token: "Password reset has expired."
+  cant_blank: "can't be empty"
+  cant_find_email: "Email address not found"
+  reset_mail_sent: "Email sent with password reset instructions"
 
   static_pages:
    about:
@@ -93,3 +109,16 @@ en:
   shared:
     error_messages:
       message_no1: "The form contains "
+
+  password_resets:
+    new:
+      forgot_pass: "Reset password"
+
+
+  user_mailer:
+    password_reset:
+      reset_msg1: "To reset your password click the link below:"
+      reset_msg2: "This link will expire in two hours."
+      reset_msg3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+
+
