@@ -11,7 +11,9 @@ class UsersController < ApplicationController
     redirect_to action: :index
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate(page: params[:page])
+  end
 
   def new
     @user = User.new

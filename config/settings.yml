@@ -5,11 +5,20 @@ user:
     maximum_length: 255
   password:
     minimum_length: 6
+
 session:
-  checkbox_true: 1
+  checkbox_true: "1"
 
 paginate:
   user_perpage: 10
 gravatar:
   size_option: 80
   user_size: 50
+
+micropost:
+  maximum_length: 140
+  maximum_size: 5
+
+picture:
+  maximum_size: 5
+  accepted_file: "image/jpeg,image/gif,image/png"
