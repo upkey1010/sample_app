@@ -68,6 +68,10 @@ en:
   cant_blank: "can't be empty"
   cant_find_email: "Email address not found"
   reset_mail_sent: "Email sent with password reset instructions"
+  delete: "delete"
+  view_profile: "view my profile"
+  micropost: "Micropost"
+  less_then_5MB: "should be less than 5MB"
 
   static_pages:
    about:
@@ -88,6 +92,7 @@ en:
     welcome_announcement: "Welcome to Sample app"
     message_no1: "This is the home page for the"
     message_no2: "sample application."
+    post_feed: "Micropost Feed"
 
   users:
    new:
@@ -109,11 +114,12 @@ en:
   shared:
     error_messages:
       message_no1: "The form contains "
+    micropost_form:
+      place_holder: "Compose new micropost..."
 
   password_resets:
     new:
       forgot_pass: "Reset password"
-
 
   user_mailer:
     password_reset:
@@ -121,4 +127,9 @@ en:
       reset_msg2: "This link will expire in two hours."
       reset_msg3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
 
-
+  microposts:
+    create:
+      post_success: "Micropost created!"
+    destroy:
+      post_del_success: "Micropost deleted"
+      post_del_fail: "Destroy Unsuccess !!!"
