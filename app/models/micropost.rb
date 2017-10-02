@@ -6,8 +6,7 @@ class Micropost < ApplicationRecord
 
   default_scope ->{order(created_at: :desc)}
 
-  scope :find_post_by_userid, ->(id){where user_id: id}
-
+  scope :find_post_by_userid, ->(user){where("user_id IN (?) OR user_id = ?", user.following_ids, user.id)}
   mount_uploader :picture, PictureUploader
 
   private

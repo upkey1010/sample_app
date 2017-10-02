@@ -13,3 +13,4 @@ user = User.find 6
   user.microposts.create!(content: content)
 
 end
+
