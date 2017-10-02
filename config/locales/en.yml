@@ -72,6 +72,9 @@ en:
   view_profile: "view my profile"
   micropost: "Micropost"
   less_then_5MB: "should be less than 5MB"
+  following: "Following"
+  followers: "Followers"
+  micropost: "Microposts"
 
   static_pages:
    about:
